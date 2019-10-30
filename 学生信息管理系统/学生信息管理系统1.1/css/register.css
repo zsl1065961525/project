@@ -1,0 +1,25 @@
+.inp{
+	height: 414px;
+}
+.top h3 a:nth-child(1){
+	font-weight: normal;
+	border: none;
+	color: rgb(133, 144, 166);
+}
+.top h3 a:nth-child(2){
+	display: inline-block;
+	color: black;
+	font-size: 16px;
+	padding-bottom:10px ;
+	border-bottom: 3px solid #0084E1;
+	font-weight: bold;
+}
+
+.c{
+	color:rgba(0,0,0,0);
+	font-size: 14px;
+}
+.crgb{
+	color: #8590A6;
+	font-size: 14px;
+}

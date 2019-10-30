@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="text" placeholder="username" id="username" /> <br>
+		<input type="password" placeholder="password" id="password"/> <br>
+		<input type="text" id="rcode"/><span id="vcode"></span>  <br>
+		<button id="login">登录<button> <a href="register.html">注册</a>
+		<script type="text/javascript">
+			//  获取所有元素
+			var username = document.getElementById('username');
+			var password = document.getElementById('password');
+			var vode = document.getElementById('vcode');
+			var rcode = document.getElementById('rcode');
+			var login = document.getElementById('login');
+			
+			//在登录的时候拿到用户输入的内容
+			login.onclick = function(){
+				//用户输入的内容
+				var uname = username.value;
+				var pwd = password.value
+				
+				//模拟验证码
+				 
+				//异步验证 /ajax
+				  //判断正确或错误,正确说明有数据,错误没数据  -- 后台判断
+				   //正确之后模拟数据
+				   var jsonStr = '{"id":"1101","uname":"tom","pwd":"123"}';
+				   //将模拟数据的字符串,变为对象
+                   var json = JSON.parse(jsonStr)
+                   //二次判断 -- 前台判断(从后台拿到一个标识,证明通过或不通过)
+                   if (json.uname = uname && json.pwd == pwd) {
+                   	  //对了
+                   	  setTimeout(function(){
+                   	  	//跳转路径,可以传参可以不传
+                   	  	window.location.href = 'index.html?fx='+json.id;
+                   	  },1000)
+                   }else{
+                   	alert("用户名或密码不正确")
+                   }
+				   
+			}
+			
+		</script>
+	</body>
+<ml>

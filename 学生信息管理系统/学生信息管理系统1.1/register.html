@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<title>注册</title>
+	</head>
+	<body onload="createCode()">
+		<div class="wrap">
+			<div class="login">
+				<!--logo-->
+				<div class="logo">
+					<div>
+					  <img src="img/河职标志.png" class="slogo"/>	
+					</div>
+					<div>
+					<img src="img/logo.png"/>
+					</div>
+				</div>
+				<!--登录框-->
+				<div class="inp">
+					<div class="top">
+					  <h3>
+					  	<a href="login.html">密码登录</a>
+					  	<a href="#">注册</a>
+					  </h3>
+				      <input type="text" name="" id="inp1" class="inp1" placeholder="请输入账号"/><br />
+				      <p class="crgb" id="p1">3~8个字符,由字母数字组成</p>
+				      <input type="password" name="" id="inp2" class="inp2" placeholder="请输入密码"/><br />
+				      <p class="crgb" id="p2">长度为6~12个字符组成,区分大小写</p>
+				      <input type="password" name="" id="inp3" class="inp2" placeholder="确认密码"/><br />
+				      <p class="c" id="p3">两次密码不一致</p>
+				      <div class="code clearFloat">
+				      	<div>
+				      	<input type="text" name="" id="inp4" value="" class="" placeholder="请输入验证码" />
+				      	</div>
+				      	<div id="letter"  onclick="createCode()"></div>
+				      </div>
+				      <p class="c-rgba" id="p4">请输入正确的验证码</p>
+				       <script type="text/javascript">
+				       	var lett = document.getElementById('letter')
+				       	var inp4 = document.getElementById('inp4')
+				       	var p4 = document.getElementById('p4')
+				       	var code;
+				       	function createCode() {
+				       		code = '';
+				       		var length = 4;
+				       		var selectChar = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
+				       		for (var i=0;i<length;i++) {
+				       			var charIndex = Math.floor(Math.random() * 36);
+				       			code += selectChar[charIndex];
+				       		}
+				       		if (lett) {
+						        lett.className = "code";
+						        lett.innerText = code;
+						    }
+				       	}
+				       </script>
+				      <p><a href="#"class="btn" id="btn">注册</a></p>
+					</div>
+					<script type="text/javascript">
+						 var inp1 = document.getElementById('inp1')
+				      	 var p1 = document.getElementById('p1')
+				      	 var inp2 = document.getElementById('inp2')
+				      	 var p2 = document.getElementById('p2')
+				      	 var inp3 = document.getElementById('inp3')
+				      	 var p3 = document.getElementById('p3')
+				      	 var btn = document.getElementById('btn')
+				      	 var inp4 = document.getElementById('inp4')
+				      	 var p4 = document.getElementById('p4')
+				      	 var lett = document.getElementById('letter')
+//				      	 正则
+                         //用户名
+				      	 var uPattern = /^[a-zA-Z0-9]{3,15}$/;
+			             //密码
+			             var regs=/^[a-zA-Z0-9]{6,12}$/
+				      	 
+				      	 inp2.onfocus = function(){
+				      	    p2.className = 'crgb'
+//				      	    inp1.value ==''?p1.className = 'c-red':p1.className = 'c'
+				      	    if(!uPattern.test(inp1.value)){
+				      	    	p1.className = 'c-red'
+				      	    }else{
+				      	    	p1.className = 'crgb'
+				      	    }
+				      	 }
+				      	 inp3.onfocus = function(){
+				      	 	inp1.value ==''?p1.className = 'c-red':p1.className = 'c'
+				      	 	inp2.value==''?p2.className = 'c-red':p2.className = 'c-rgba'
+				      	 	if(!uPattern.test(inp1.value)){
+				      	    	p1.className = 'c-red'
+				      	    }else{
+				      	    	p1.className = 'crgb'
+				      	    }
+				      	    if(!regs.test(inp2.value)){
+				      	    	p2.className = 'c-red'
+				      	    }else{
+				      	    	p2.className = 'crgb'
+				      	    }
+				      	 }
+				      	 inp4.onfocus = function(){
+                            if(!uPattern.test(inp1.value)){
+				      	    	p1.className = 'c-red'
+				      	    }else{
+				      	    	p1.className = 'crgb'
+				      	    }
+				      	    if(!regs.test(inp2.value)){
+				      	    	p2.className = 'c-red'
+				      	    }else{
+				      	    	p2.className = 'crgb'
+				      	    }
+				      	 	if(inp2.value == inp3.value&&inp3.value!=''){
+				      	 		p3.className = 'c'
+				      	 	}else{
+				      	 		p3.className = 'c-red'
+				      	 	}
+				      	 }
+				      	 btn.onclick = function(){
+				      	    if (inp1.value == '') {
+				      	    	p1.className = 'c-red'
+				      	    	alert('请输入正确的用户名')
+				      	    }if(inp2.value == ''){
+				      	    	p2.className = 'c-red'
+				      	    }if(inp3.value == ''){
+				      	    	p3.className = 'c-red'
+				      	    }if(inp4.value == ''){
+				      	    	p4.className = 'c-red'
+				      	    }if(inp4.value != letter.innerText){
+				      	    	p4.className = 'c-red'
+				      	    }else{
+				      	    	p4.className = 'c'
+				      	    	alert('注册成功')
+				      	    }
+				      	 }
+					</script>
+				    <div class="bottom clearFloat">
+				    	<div>
+				    	  <p>未注册账号验证后自动登录</p>
+				    	  <p>注册即代表同意<a href="#">《协议》</a><a href="#">《隐私保护指引》</a></p>
+				    	</div>
+				    	<div><a href="#">注册机构号</a></div>
+				    </div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

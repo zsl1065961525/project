@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<title>登录</title>
+	</head>
+	<body onload="createCode()">
+		<div class="wrap">
+			<div class="login">
+				<!--logo-->
+				<!--<div class="slogo">-->
+				
+				<!--</div>-->
+				<div class="logo">
+					<div>
+					  <img src="img/河职标志.png" class="slogo"/>	
+					</div>
+					<div>
+					   <img src="img/logo.png"/>
+					</div>
+					
+				</div>
+				<!--登录框-->
+				<div class="inp">
+					<div class="top">
+					  <h3>
+					  	<a href="#">密码登录</a>
+					  	<a href="register.html">注册</a>
+					  </h3>
+				      <input type="text" name="" id="inp1" class="inp1" placeholder="请输入账号"/><br />
+				      <p class="c-rgba" id="p1">请输入正确的账号</p>
+				      <input type="password" name="" id="inp2" class="inp2" placeholder="密码"/><br />
+				      <p class="c-rgba" id="p2">请输入正确密码</p>
+				      
+				      <!--验证码-->
+				      <div class="code clearFloat">
+				      	<div>
+				      	<input type="text" name="" id="inp3" value="" class="" placeholder="请输入验证码" />
+				      	</div>
+				      	<div id="letter"  onclick="createCode()"></div>
+				      </div>
+				      <p class="c-rgba" id="p3">请输入正确的验证码</p>
+				       <script type="text/javascript">
+				       	var lett = document.getElementById('letter')
+				       	var inp3 = document.getElementById('inp3')
+				       	var p3 = document.getElementById('p3')
+				       	var code;
+				       	function createCode() {
+				       		code = '';
+				       		var length = 4;
+				       		var selectChar = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
+				       		for (var i=0;i<length;i++) {
+				       			var charIndex = Math.floor(Math.random() * 36);
+				       			code += selectChar[charIndex];
+				       		}
+				       		if (lett) {
+						        lett.className = "code";
+						        lett.innerText = code;
+						    }
+				       	}
+				       </script>
+				      <div class="forget clearFloat">
+				      	<a href="#">海外手机号登录</a>
+				        <a href="#">忘记密码</a>
+				      </div>
+				      <p><a href="#"class="btn" id="btn" onload="validate()";>登录</a></p>
+					</div>
+					<script type="text/javascript">
+				      	 var inp1 = document.getElementById('inp1')
+				      	 var p1 = document.getElementById('p1')
+				      	 var inp2 = document.getElementById('inp2')
+				      	 var p2 = document.getElementById('p2')
+				      	 var inp3 = document.getElementById('inp3')
+				      	 var p3 = document.getElementById('p3')
+				      	 var btn = document.getElementById('btn')
+				      	 inp2.onfocus = function(){
+				      	    inp1.value==''?p1.className = 'c-red':p1.className = 'c-rgba'
+				      	 }
+				      	 inp3.onfocus = function(){
+				      	 	inp1.value==''?p1.className = 'c-red':p1.className = 'c-rgba'
+				      	    inp2.value==''?p2.className = 'c-red':p2.className = 'c-rgba'
+				      	 }
+				      	 btn.onclick = function(){
+				      	 	inp1.value==''?p1.className = 'c-red':p1.className = 'c-rgba'
+				      	    inp2.value==''?p2.className = 'c-red':p2.className = 'c-rgba'
+				      	    inp3.value==''?p3.className = 'c-red':p3.className = 'c-rgba'
+				      	    inp3.value!=code?p3.innerText = '请输入正确验证码':p3.className = 'c-rgba'
+				      	    if(inp3.value != letter.innerText){
+				      	    	p3.className = 'c-red'
+				      	    }else{
+				      	    	p3.className = 'c-rgba'
+				      	    	alert('登录成功')
+				      	    }
+				      	 }
+				      </script>
+				      
+				    <div class="bottom clearFloat">
+				    	<div>
+				    	  <p>未注册账号验证后自动登录</p>
+				    	  <p>登录即代表同意<a href="#">《协议》</a><a href="#">《隐私保护指引》</a></p>
+				    	</div>
+				    	<div><a href="#">注册机构号</a></div>
+				    </div>
+				</div>
+			    
+			</div>
+			
+		</div>
+	</body>
+</html>
