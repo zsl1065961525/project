@@ -1,0 +1,33 @@
+.subject-text{
+	height: 417px;
+}
+.subject-input{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+/*验证按钮*/
+.subject-Verification button{
+	display: inline-block;
+	background: white;
+	border:1px solid rgba(0,0,0,0.2) ;
+	color:rgba(0,0,0,0.5);
+	border-radius:0px;
+	font-size: 15px;
+}
+#subject-text-p>a{
+	display: inline-block;
+	color: #387aff;
+	font-size: 14px;
+	margin:10px 0px;
+	margin-left: -257px;
+	color: #387aff;
+}
+#texe{
+	color:#387aff ;
+}
+.subject-text button{
+	margin: 0px;
+}
+.subject-radio{
+	margin: 20px 0px ;
+}
