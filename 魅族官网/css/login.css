@@ -1,0 +1,163 @@
+ul{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+.header p{
+	font-size: 40px;
+	margin:0px 110px;
+	margin-bottom: 10px;
+	color:#009bf2;
+	font-family: "微软雅黑";
+	font-weight: 500;
+}
+/*----------------------------------------主体--------------------------------------*/
+.main{
+	display: inline-block;
+	width: 100%;
+	height: 755px;
+	background: url(../img/登录页面/banner.png) no-repeat;
+	/*background-size:100%;*/
+}
+.grid{
+	position: relative;
+	top:163px;
+	left: 1043px;
+	/*text-align: center;*/
+	width: 378px;
+	height: 326px;
+	/*border: 1px solid rgba(0,0,0,0.5);*/
+	background: white;
+	padding-left: 50px;
+	padding-top: 100px;
+	
+}
+.grid input{
+	width: 344px;
+	height: 55px;
+	font-size: 20px;
+	text-indent:92px;
+	line-height: 46px;
+	border: 0.5px solid rgba(0,0,0,0.3);
+}
+.grid b{
+	font-size: 20px;
+	color: rgba(0,0,0,0.5);
+    font-weight: 500;
+	position: absolute;
+	top:203px ;
+	left:57px ;
+}
+.grid button{
+    width: 344px;
+    height: 55px;
+    font-size: 20px;
+    background: #387aff;
+    border: 1px solid #387AFF;	
+    color: white;
+    border-radius:5px;
+    margin-top:40px ;
+}
+.grid p>a{
+	text-decoration:none;
+	margin-right: 238px;
+	color:#387AFF ;
+}
+.grid h1{
+	font-size: 25px;
+	margin-bottom:40px ;
+	margin-left: 100px;
+	color: rgba(0,0,0,0.7);
+}
+.grid-img{
+	position: absolute;
+	top: 12px;
+	left: 382px;
+}
+/*---------------------------------底部---------------------------------------------------------*/
+.Footter{
+	width: 100%;
+	height: 170px;
+	background: white;
+	border-top:1px solid rgba(0,0,0,0.1) ;
+	margin-top: 00px;
+	text-align: center;
+}
+.Footter ul{
+	margin-left: 230px;
+}
+.Footter-one li{
+	margin: 30px 40px;
+	padding:0;
+	float:left;
+	text-align: center;
+}
+.Footter-one img{
+	width: 60px;
+}
+.Footter-one p{
+	font-size:15px;
+	color: rgba(0,0,0,0.5);
+	font-weight: 500;
+}
+.Footter-one-a a{
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+}
+.Footter-one-li p{
+	margin: 10px 137px;
+}
+.Footter-one-a{
+	width: 120px;
+	height: 40px;
+	background: #0bbbef;
+	text-align: center;
+	border-radius:20px;
+}
+.Footter-two li{
+	margin: 30px 8px;
+	padding:0;
+	float:left;
+	text-align: center;
+	color: rgba(0,0,0,0.4);
+}
+.Footter-two a{
+	font-size:17px ;
+	color: rgba(0,0,0);
+}
+.Footter-two-p{
+	width: 130px;
+	text-align: left;
+	position:absolute;
+	top: -320px;
+	left: -20px;
+	background: white;
+	opacity: 0; /*透明度*/
+}
+.Footter-two button{
+	background:#32a5e7 ;
+	border: #32a5e7;
+	color: white;
+	font-size: 16px;
+	border-radius:3px;
+}
+.Footter-two-li:hover .Footter-two-p{ 
+    opacity: 1; /*通过透明度进行触碰事件*/
+} 
+.Footter-two-p p{
+	margin-left: 20px;
+}
+.Footter-two-img{
+	position:absolute;
+	top: 873px;
+	opacity: 0;
+}
+.Footter-two-img:hover{
+	opacity: 1;
+}
+.Footter-Three{
+	margin-top:80px ;
+	margin-left: 50px;
+}

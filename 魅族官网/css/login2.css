@@ -1,0 +1,131 @@
+.logo{
+	background:white ;
+}
+.logo a{
+	font-size:20px;
+	color: #1EB9EE;
+	display: inline-block;
+	margin: 20px 0;
+}
+.subject{
+	background: url(../img/登录页面/banner.png) no-repeat;
+	width: 100%;
+	height:750px ;
+    position: relative;;
+}
+.subject-text{
+	width:298px ;
+	height:271px ;
+	/*border: 1px solid black;*/
+	background: white;
+	text-align: center;
+	padding: 35px 35px 10px;
+	position: absolute;
+	top: 16%;
+	right: 85px;
+}
+.subject-text img{
+	margin-top: -50px;
+	margin-left: 280px;
+}
+.subject-text p:nth-child(2){
+	font-size: 22px;
+	color: #515151;
+	font-weight: 900;
+	font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+.subject-input{
+	margin: 0 auto;
+	width: 298px;
+	height: 48px;
+	border: 1px solid #dadada;
+}
+.subject-input input{
+	border: none;/*边框消失*/
+	width: 74%;
+	height: 42px;
+	font-size:14px ;
+	margin-left: 10px;
+	/*background: red;*/
+	
+}
+.subject-input b{
+	font-size: 14px;
+	line-height: 48px;
+	font-weight: 100;
+	color: grey;
+	padding-right: 10px;
+	border-right: 2px solid grey;
+}
+.subject-text button{
+	width: 300px;
+    height: 46px;
+    font-size: 20px;
+    background: #387aff;
+    border: 1px solid #387AFF;	
+    color: white;
+    border-radius:5px;
+    margin-top:40px ;
+}
+.subject-text-p>a{
+	display: inline-block;
+	color: #387aff;
+	font-size: 14px;
+	margin:10px 50px;
+}
+/*-----------------------------底部---------------------------------*/
+.Footter{
+	width: 100%;
+	height: 170px;
+	background: white;
+	text-align: center;
+}
+.Footter-one{
+	margin:0 auto;
+}
+.Footter-one li{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	margin-left: 8px;
+	margin-top: 40px;
+}
+.Footter-one li a{
+	color: black;
+}
+.Footter-one-a01{
+	display: inline-block;
+	width: 64px;
+	height: 20px;
+	background: #32a5e7;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+}
+.Footter-one-a02{
+	margin-left:80px;
+}
+/*微信,微博,空间小图标*/
+#weibo a{
+	font-size: 30px;
+	color: rgb(153,153,153);
+}
+#weibo a:hover{
+	color: red;
+}
+#weixin a{
+	font-size: 30px;
+	color: rgb(153,153,153);
+}
+#weixin a:hover{
+	color: yellowgreen;
+}
+#QQkongjian a{
+	font-size: 30px;
+	color: rgb(153,153,153);
+}
+#QQkongjian a:hover{
+	color: rgb(218,196,37);
+}

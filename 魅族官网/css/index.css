@@ -1,0 +1,1155 @@
+body{
+	background:#f4f4f4 ;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+/*logo*/
+.Navigation .logo{
+	font-size: 20px;
+	position: relative;
+	top: 50px;
+	left: 200px;
+}
+/*-----------------------导航栏---------------------------*/
+.Above{
+	background: white;
+	height: 910px;
+}
+.Navigation{
+	position:relative ;
+}
+.Navigation li{
+	margin:7px;
+    padding:5px;
+    float:right;
+}
+.Navigation ul{
+	/*margin-top: -65px;*/
+}
+.Navigation h1{
+	font-size: 50px;
+	font-weight:700;
+	margin: 10px 30px;
+}
+.Navigation input{
+	width: 170px;
+	height: 30px;
+	border-radius:20px;
+	border: 1px solid rgba(0,0,0,0);
+	text-indent:15px;
+	margin-top: -10px;
+}
+.Navigation a{
+	color: white;
+}
+.Navigation a:hover{
+	color: #009bf2;
+}
+/*-----------------------轮播图---------------------------*/
+.Rotation-img{
+    display: inline-block;
+    width: 100%;
+    height: 670px;
+    margin-top: -80px;
+    background:url(../img/首页/轮播图-顶部/d69b6094_3a74_46a7_bb0f_26104d98d7d4.jpeg) -630px 0px no-repeat ;
+    	 
+}
+/*-----------------------购物导航---------------------------*/
+.Product{
+	text-align: center;
+}
+.Product li{
+	margin:10px 80px;
+    padding:5px;
+    float:left;
+}
+.Product img{
+	width: 130px;
+	height: 130px;
+}
+.Product h3{
+	color:rgba(0,0,0,0.8) ;
+	font-weight: 500;
+	margin-top: 0px;
+}
+.Product h5{
+	color:rgba(0,0,0,0.5) ;
+	font-weight: 500;
+	margin-top: -10px;
+}
+/*-----------------------魅族手机---------------------------*/
+.Phone{
+	text-align: center;
+	margin-top: 50px;
+}
+.Phone-text{
+	color: rgba(0,0,0,0.7);
+	font-weight: 500;
+}
+.Phone-img{
+	display: inline-block;
+	width: 100%;
+	height: 450px;
+	background: url(../img/首页/魅族手机/Cgbj0FxmbimAfNChAAOMaG6s828938.jpg) -600px 0px no-repeat;
+}
+.Phone li:hover{
+	box-shadow:1px 1px 50px 3px rgba(0,0,0,0.1); /*触碰出现阴影*/
+}
+.Phone-one li{
+	width: 47.5%;
+	margin:10px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Phone-one img{
+	width: 460px;
+	height: 460px;
+	margin-top: -30px;
+}
+.Phone-one h2{
+	color: rgba(0,0,0,0.8);
+	font-size: 35px;
+	font-weight: 400;
+	margin-top: 60px;
+}
+.Phone-one h3{
+	color: rgba(0,0,0,0.8);
+	font-size: 25px;
+	font-weight: 500;
+	margin-top: -15px;
+}
+/*第二行*/
+.Phone-two img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Phone-two li{
+	width: 22.8%;
+	height: 420px;
+	margin:0px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Phone-two h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Phone-two h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Phone-two h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+/*第三行*/
+.Phone-three img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Phone-three li{
+	width: 22.8%;
+	height: 420px;
+	margin:10px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Phone-three h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Phone-three h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Phone-three h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+/*-----------------------魅族声学---------------------------*/
+.Acoustics{
+	text-align: center;
+	margin-top: 1650px;
+}
+.Acoustics-text{
+	color: rgba(0,0,0,0.7);
+	font-weight: 500;
+}
+.Acoustics-img{
+	display: inline-block;
+	width: 100%;
+	height: 500px;
+	background: url(../img/首页/魅族声学/d7ae6b59_261d_4656_af84_8524b2cbf48a.jpg) -550px -80px no-repeat;
+	
+}
+.Acoustics li:hover{
+	box-shadow:1px 1px 50px 3px rgba(0,0,0,0.1); /*触碰出现阴影*/
+}
+/*第一行*/
+.Acoustics-one-img{
+	width: 100%;
+	height: 420px;
+	display: inline-block;
+	background: url(../img/首页/魅族声学/5c6f84a6_9883_4e27_a935_4d10b171360e.jpg) no-repeat;
+	background-size:cover;
+}
+.Acoustics-one img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Acoustics-one li{
+	width: 22.8%;
+	height: 420px;
+	margin:0px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Acoustics-one h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Acoustics-one h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Acoustics-one h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.Acoustics-one-img h4{
+	color: white;
+	font-size:28px ;
+	font-weight: 900;
+	margin-top:280px ;
+}
+.Acoustics-one-img h5{
+	font-size:19px;
+	color: white;
+	margin-top: -35px;
+}
+.Acoustics-one-img h3{
+	color: #00fefb;
+	font-size:25px ;
+	font-weight:700 ;
+}
+/*第二行*/
+.Acoustics-two-img{
+	width: 100%;
+	height: 420px;
+	display: inline-block;
+	background: url(../img/首页/魅族声学/c670037c_d423_43b4_945d_c41a973c3a8e.jpg) no-repeat;
+	background-size:cover;
+}
+.Acoustics-two img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Acoustics-two li{
+	width: 22.8%;
+	height: 420px;
+	margin:20px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Acoustics-two h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Acoustics-two h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Acoustics-two h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.Acoustics-two-img h4{
+	color: white;
+	font-size:28px ;
+	font-weight: 900;
+	margin-top:280px ;
+}
+.Acoustics-two-img h5{
+	font-size:19px;
+	color: white;
+	margin-top: -35px;
+}
+.Acoustics-two-img h3{
+	color: #ebce6b;
+	font-size:25px ;
+	font-weight:700 ;
+}
+/*第三行*/
+.Acoustics-three-img{
+	width: 100%;
+	height: 420px;
+	display: inline-block;
+	background: url(../img/首页/魅族声学/ea900393_0119_4f34_87c1_0770a22a84a1.jpg) no-repeat;
+	background-size:cover;
+}
+.Acoustics-three img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Acoustics-three li{
+	width: 22.8%;
+	height: 420px;
+	margin:10px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Acoustics-three h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Acoustics-three h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Acoustics-three h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.Acoustics-three-img h4{
+	color: white;
+	font-size:28px ;
+	font-weight: 900;
+	margin-top:280px ;
+}
+.Acoustics-three-img h5{
+	font-size:19px;
+	color: white;
+	margin-top: -35px;
+}
+.Acoustics-three-img h3{
+	color: #00fefb;
+	font-size:25px ;
+	font-weight:700 ;
+}
+/*-----------------------智能配件---------------------------*/
+.Parts{
+	text-align: center;
+	margin-top: 1400px;
+}
+.Parts-text{
+	color: rgba(0,0,0,0.7);
+	font-weight: 500;
+}
+.Parts-img{
+	display: inline-block;
+	width: 100%;
+	height: 500px;
+	background: url(../img/首页/智能配件/c67264b3_38d7_4b57_af1c_5f061c70db0e.jpg) -740px -80px no-repeat;
+	background-size: 3000px 580px;
+	
+}
+.Parts li:hover{
+	box-shadow:1px 1px 50px 3px rgba(0,0,0,0.1); /*触碰出现阴影*/
+}
+/*第一行*/
+.Parts-one-img{
+	width: 100%;
+	height: 420px;
+	display: inline-block;
+	background: url(../img/首页/智能配件/01782af6_5c38_4f95_b2aa_0e0e680ad054.png) no-repeat;
+	background-size:cover;
+}
+.Parts-one img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Parts-one li{
+	width: 22.8%;
+	height: 420px;
+	margin:0px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Parts-one h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Parts-one h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Parts-one h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.Parts-one-img h4{
+	color: white;
+	font-size:28px ;
+	font-weight: 900;
+	margin-top:280px ;
+}
+.Parts-one-img h5{
+	font-size:19px;
+	color: white;
+	margin-top: -35px;
+}
+.Parts-one-img h3{
+	color: #fbd843;
+	font-size:25px ;
+	font-weight:700 ;
+}
+/*第二行*/
+.Parts-two-img{
+	width: 100%;
+	height: 420px;
+	display: inline-block;
+	background: url(../img/首页/智能配件/5370aa79_9b77_4b43_b37b_1dace18d4efa.jpg) no-repeat;
+	background-size:cover;
+}
+.Parts-two img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Parts-two li{
+	width: 22.8%;
+	height: 420px;
+	margin:20px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Parts-two h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Parts-two h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Parts-two h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.Parts-two-img h4{
+	color: white;
+	font-size:28px ;
+	font-weight: 900;
+	margin-top:280px ;
+}
+.Parts-two-img h5{
+	font-size:19px;
+	color: white;
+	margin-top: -35px;
+}
+.Parts-two-img h3{
+	color: #47b4e1;
+	font-size:25px ;
+	font-weight:700 ;
+}
+/*第三行*/
+.Parts-three-img{
+	width: 100%;
+	height: 420px;
+	display: inline-block;
+	background: url(../img/首页/智能配件/c616d3eb_874d_4ff8_944c_af9ac3e65c68.jpg) no-repeat;
+	background-size:cover;
+}
+.Parts-three img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Parts-three li{
+	width: 22.8%;
+	height: 420px;
+	margin:10px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Parts-three h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Parts-three h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Parts-three h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.Parts-three-img h4{
+	color: white;
+	font-size:28px ;
+	font-weight: 900;
+	margin-top:280px ;
+}
+.Parts-three-img h5{
+	font-size:19px;
+	color: white;
+	margin-top: -35px;
+}
+.Parts-three-img h3{
+	color: #ec8a4a;
+	font-size:25px ;
+	font-weight:700 ;
+}
+/*-----------------------生活周边---------------------------*/
+.Life{
+	text-align: center;
+	margin-top: 1400px;
+}
+.Life-text{
+	color: rgba(0,0,0,0.7);
+	font-weight: 500;
+}
+.Life-img{
+	display: inline-block;
+	width: 100%;
+	height: 500px;
+	background: url(../img/首页/生活周边/cafce143_2e0c_4d24_85a8_f0dd132cf0d3.jpg) -740px -50px no-repeat;
+	background-size: 3000px 580px;
+	
+}
+.Life li:hover{
+	box-shadow:1px 1px 50px 3px rgba(0,0,0,0.1); /*触碰出现阴影*/
+}
+/*第一行*/
+.Life-one-img{
+	width: 100%;
+	height: 420px;
+	display: inline-block;
+	background: url(../img/首页/生活周边/5c9e0f3b_2c17_4578_825b_7a138fc5127f.jpg) no-repeat;
+	background-size:cover;
+}
+.Life-one img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Life-one li{
+	width: 22.8%;
+	height: 420px;
+	margin:0px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Life-one h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Life-one h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Life-one h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.Life-one-img h4{
+	color: white;
+	font-size:28px ;
+	font-weight: 900;
+	margin-top:280px ;
+}
+.Life-one-img h5{
+	font-size:19px;
+	color: white;
+	margin-top: -35px;
+}
+.Life-one-img h3{
+	color: #a1ccfe;
+	font-size:25px ;
+	font-weight:700 ;
+}
+/*第二行*/
+.Life-two-img{
+	width: 100%;
+	height: 420px;
+	display: inline-block;
+	background: url(../img/首页/生活周边/011c8745_9eb9_47b7_b6b1_97c98f7dcdf0.jpg) no-repeat;
+	background-size:cover;
+}
+.Life-two img{
+	width: 260px;
+	height: 260px;
+	margin-top: 20px;
+}
+.Life-two li{
+	width: 22.8%;
+	height: 420px;
+	margin:20px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Life-two h4{
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+	font-size: 23px;
+	margin-top: 0px;
+}
+.Life-two h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: -20px;
+}
+.Life-two h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: -20px;
+}
+.Life-two-img h4{
+	color: white;
+	font-size:28px ;
+	font-weight: 900;
+	margin-top:280px ;
+}
+.Life-two-img h5{
+	font-size:19px;
+	color: white;
+	margin-top: -35px;
+}
+.Life-two-img h3{
+	color: #45c128;
+	font-size:25px ;
+	font-weight:700 ;
+}
+/*-----------------------社区热帖---------------------------*/
+.Notes{
+	margin-top: 950px;
+}
+.Notes-text{
+	color: rgba(0,0,0,0.7);
+	font-weight: 500;
+}
+.Notes li:hover{
+	box-shadow:1px 1px 50px 3px rgba(0,0,0,0.1); /*触碰出现阴影*/
+}
+/*第一行*/
+.Notes-one img{
+	width: 100%;
+	height: 250px;
+}
+.Notes-one li{
+	width: 22.8%;
+	height: 460px;
+	margin:0px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Notes-portrait{
+	border-radius:50%;
+	box-shadow:1px 1px 3px 2px rgba(0,0,0,0.3);
+	/*float:left;*/
+	margin:15px 15px ;
+}
+.Notes-li span{
+	color: rgba(0,0,0,0.7); 
+	font-size: 18px;
+	margin-left: 10px;
+}
+.Notes-li p{
+	color: rgba(0,0,0,0.8); 
+	font-size: 20px;
+	margin: 0px 20px;
+}
+.Notes-li h6{
+	color: rgba(0,0,0,0.4); 
+	font-size: 10px;
+	margin: 30px 20px;
+}
+/*第二行*/
+.Notes-two img{
+	width: 100%;
+	height: 250px;
+}
+.Notes-two li{
+	width: 22.8%;
+	height: 460px;
+	margin:20px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+/*-----------------------------------Flyme------------------------------*/
+.Flyme{
+	margin-top: 1050px;
+}
+.Flyme-text{
+	color: rgba(0,0,0,0.7);
+	font-weight: 500;
+}
+/*第一行*/
+.Flyme-one img{
+	width: 100%;
+	height: 250px;
+}
+.Flyme-one-img01 img{
+	width: 49%;
+	height: 320px;
+	float:left;
+}
+.Flyme-one-img02{
+	width: 22.8%;
+	height: 310px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Flyme-one-img02:hover{
+	box-shadow:1px 1px 50px 3px rgba(0,0,0,0.1); /*触碰出现阴影*/
+}
+.Flyme-one span{
+	color: rgba(0,0,0,0.7); 
+	font-size: 18px;
+	margin-left: 10px;
+}
+.Flyme-one p{
+	color: rgba(0,0,0,0.8); 
+	font-size: 23px;
+	margin: 0px 20px;
+	text-align: center;
+	margin-top: 15px;
+}
+/*第二行*/
+.Flyme-two{
+	margin-top: 370px;
+}
+.Flyme-two li{
+	margin: 0 20px;
+}
+.Flyme-two img{
+	width: 100%;
+	height: 250px;
+}
+.Flyme-two-img01 img{
+	width: 49%;
+	height: 320px;
+	float:left;
+}
+.Flyme-two-img02{
+	width: 22.8%;
+	height: 310px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.Flyme-two-img02:hover{
+	box-shadow:1px 1px 50px 3px rgba(0,0,0,0.1); /*触碰出现阴影*/
+}
+.Flyme-two span{
+	color: rgba(0,0,0,0.7); 
+	font-size: 18px;
+	margin-left: 10px;
+}
+.Flyme-two p{
+	color: rgba(0,0,0,0.8); 
+	font-size: 23px;
+	margin: 0px 20px;
+	text-align: center;
+	margin-top: 15px;
+}
+/*-----------------------------------精彩视频------------------------------*/
+.video{
+	margin-top: 740px;
+}
+.video-text{
+	color: rgba(0,0,0,0.7);
+	font-weight: 500;
+}
+.video li{
+	width: 22.8%;
+	height: 280px;
+	margin:0px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.video li:hover{
+	box-shadow:1px 1px 50px 3px rgba(0,0,0,0.1); /*触碰出现阴影*/
+}
+/*第一行*/
+.video-one video{
+	width: 100%;
+	height: 250px;
+}
+.video-one img{
+	width: 97%;
+	height: 230px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.video-one p{
+	color: rgba(0,0,0,0.8); 
+	font-size: 19px;
+	font-weight: 400;
+	margin: 0px 20px;
+	text-align: center;
+	margin-top: 5px;
+}
+#v1{
+	margin-top: -15px;
+}
+.video-one01{
+	position: relative;
+}
+.advertisement1{
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.con1{
+	position: absolute;
+	top: 100px;
+	left: 42%;
+}
+#v2{
+	margin-top: -15px;
+}
+.video-one02{
+	position: relative;
+}
+.advertisement2{
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.con2{
+	position: absolute;
+	top: 100px;
+	left: 42%;
+}
+#v3{
+	margin-top: -15px;
+}
+.video-one03{
+	position: relative;
+}
+.advertisement3{
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.con3{
+	position: absolute;
+	top: 100px;
+	left: 42%;
+}
+#v4{
+	margin-top: -15px;
+}
+.video-one04{
+	position: relative;
+}
+.advertisement4{
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.con4{
+	position: absolute;
+	top: 100px;
+	left: 42%;
+}
+/*第二行*/
+.video-two video{
+	width: 100%;
+	height: 250px;
+}
+.video-two img{
+	width: 97%;
+	height: 230px;
+    padding:5px;
+    float:left;
+    background: white;
+}
+.video-two p{
+	color: rgba(0,0,0,0.8); 
+	font-size: 19px;
+	font-weight: 400;
+	margin: 0px 20px;
+	text-align: center;
+	margin-top: 5px;
+}
+#v5{
+	margin-top: -15px;
+}
+.video-two05{
+	position: relative;
+}
+.advertisement5{
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.con5{
+	position: absolute;
+	top: 100px;
+	left: 42%;
+}
+#v6{
+	margin-top: -15px;
+}
+.video-two06{
+	position: relative;
+}
+.advertisement6{
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.con6{
+	position: absolute;
+	top: 100px;
+	left: 42%;
+}
+#v7{
+	margin-top: -15px;
+}
+.video-two07{
+	position: relative;
+}
+.advertisement7{
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.con7{
+	position: absolute;
+	top: 100px;
+	left: 42%;
+}
+#v8{
+	margin-top: -15px;
+}
+.video-two08{
+	position: relative;
+}
+.advertisement8{
+	position: absolute;
+	top: 0px;
+	left: -0px;
+}
+.con8{
+	position: absolute;
+	top: 100px;
+	left: 42%;
+}
+/*---------------------------------底部---------------------------------------------------------*/
+.Footter{
+	width: 100%;
+	height: 400px;
+	background: white;
+	border-top:1px solid rgba(0,0,0,0.1) ;
+	margin-top: 700px;
+}
+.Footter-one li{
+	margin: 30px 40px;
+	padding:0;
+	float:left;
+	text-align: center;
+}
+.Footter-one img{
+	width: 60px;
+}
+.Footter-one p{
+	font-size:15px;
+	color: rgba(0,0,0,0.5);
+	font-weight: 500;
+}
+.Footter-one-a a{
+	color: white;
+	font-size: 16px;
+	line-height: 40px;
+}
+.Footter-one-li p{
+	margin: 10px 137px;
+}
+.Footter-one-a{
+	width: 120px;
+	height: 40px;
+	background: #0bbbef;
+	text-align: center;
+	border-radius:20px;
+}
+.Footter-two li{
+	margin: 30px 8px;
+	padding:0;
+	float:left;
+	text-align: center;
+	color: rgba(0,0,0,0.4);
+}
+.Footter-two a{
+	color: rgba(0,0,0,0.6);
+}
+.Footter-two-p{
+	width: 130px;
+	text-align: left;
+	position:absolute;
+	top: -320px;
+	left: -20px;
+	background: white;
+	opacity: 0; /*透明度*/
+}
+.Footter-two-li:hover .Footter-two-p{ 
+    opacity: 1; /*通过透明度进行触碰事件*/
+} 
+.Footter-two-p p{
+	margin-left: 20px;
+}
+.Footter-Three{
+	margin-top:80px ;
+	margin-left: 50px;
+}
+.Footter-Three-ul{
+	margin-top: -70px;
+}
+.Footter-Three-ul li{
+	float: right;
+	margin:30px 8px;;
+	padding:0;
+	color:rgba(0,0,0,0.4);;
+}
+.Footter-Three-ul img{
+	width: 30px;
+}
+/*公众号*/
+.Footter-Three-li01{
+	position: relative;
+}
+.Footter-Three-li01-img{
+	position: absolute;
+	top: -300px;
+	left: -25px;
+	opacity: 0;
+}
+.Footter-Three-li01-img01{
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+.Footter-Three-li01:hover .Footter-Three-li01-img01{ 
+    opacity: 1; /*通过透明度进行触碰事件*/
+} 
+.Footter-Three-li01:hover .Footter-Three-li01-img{ 
+    opacity: 1; /*通过透明度进行触碰事件*/
+}
+/*微信图*/
+.Footter-Three-li02{
+	position: relative;
+}
+.Footter-Three-li02-img{
+	position: absolute;
+	top: -300px;
+	left: -100px;
+	opacity: 0;
+}
+.Footter-Three-li01-img02{
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+.Footter-Three-li02:hover .Footter-Three-li02-img{ 
+    opacity: 1; /*通过透明度进行触碰事件*/
+}
+.Footter-Three-li02:hover .Footter-Three-li01-img02{ 
+    opacity: 1; /*通过透明度进行触碰事件*/
+}
+/*空间*/
+.Footter-Three-li03{
+	position: relative;
+}
+.Footter-Three-li01-img03{
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+.Footter-Three-li03:hover .Footter-Three-li01-img03{ 
+    opacity: 1; /*通过透明度进行触碰事件*/
+}
+/*微博*/
+.Footter-Three-li04{
+	position: relative;
+}
+.Footter-Three-li01-img04{
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+}
+.Footter-Three-li04:hover .Footter-Three-li01-img04{ 
+    opacity: 1; /*通过透明度进行触碰事件*/
+}

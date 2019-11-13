@@ -1,0 +1,422 @@
+#header{
+	position:absolute;
+    left:0px;
+    top:0px;
+	z-index:1;
+}
+.product{
+	background: white;
+	height:834px ;
+}
+/*-----------------------轮播图---------------------------*/
+/*.Rotation-img{
+    display: inline-block;
+    width: 100%;
+    height: 658px;
+    background:url(../img/首页/轮播图-顶部/d69b6094_3a74_46a7_bb0f_26104d98d7d4.jpeg) -630px 0px no-repeat ;
+    z-index:0;	 
+}*/
+.Rotation{
+	width: 100%;
+	height: 580px;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.Rotation ul{
+	width:500% ;
+	height: 580px;
+	/*border: 1px solid blue;*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	animation: scroll 30s linear infinite alternate;
+}
+.Rotation ul li{
+	/*border:1px solid black ;*/
+	float: left;
+	width: 20%;
+}
+.Rotation ul li img{
+	width: 100%;
+	height: 580px;
+}
+/*声明动画*/
+@keyframes scroll{
+	0%,15%{margin-left: 0%;}
+	20%,35%{margin-left: -100%;}
+	40%,55%{margin-left: -200%;}
+	60%,75%{margin-left: -300%;}
+	80%,100%{margin-left: -400%;}
+}
+/*------------------------产品导航------------------------*/
+.Product-ul{
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	line-height: 30px;
+	margin: 20px;
+}
+.Product-ul li img{
+	width: 130px;
+	height: 130px;
+	margin:0 90px;
+}
+.Product-ul li h3{
+	color:rgba(0,0,0,0.8) ;
+	font-weight: 500;
+	/*margin-top: 0px;*/
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+.Product-ul li h5{
+	color:rgba(0,0,0,0.5) ;
+	font-weight: 500;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+/*----------------------------魅族手机--------------------------------*/
+.Phone-img{
+	display: inline-block;
+	width: 100%;
+	height: 450px;
+	background: url(../img/首页/魅族手机/Cgbj0FxmbimAfNChAAOMaG6s828938.jpg) -600px 0px no-repeat;
+}
+/*第一行*/
+.Phone-one{
+	display: flex;
+	/*flex-wrap: wrap;*/
+	justify-content: space-between;
+}
+.Phone-one>div{
+	width:615px;
+	margin:10px 10px;
+    padding:5px;
+    float:left;
+    background: white;
+    text-align: center;
+}
+.Phone-one>div a img{
+	width: 460px;
+	height: 460px;
+	/*margin-top: -30px;*/
+}
+.Phone-one>div a h2{
+	color: rgba(0,0,0,0.8);
+	font-size: 28px;
+	font-weight: 400;
+	margin-top: 60px;
+	font-family:"微软雅黑" ;
+	margin-bottom: 10px;
+}
+.Phone-one>div a h3{
+	color: #c00;
+	font-size: 22px;
+	font-weight: 500;
+}
+.Phone-one>div a h4{
+	color: rgba(0,0,0,0.8);
+	font-size: 18px;
+	font-weight: 500;
+	font-family: "微软雅黑";
+	margin-bottom: 10px;
+}
+.Phone-one>div:hover{
+	box-shadow:1px 1px 50px 20px rgba(0,0,0,0.1); /*触碰出现阴影*/
+	transition: 1s; 
+}
+/*第二行*/
+.Phone-tow{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.Phone-tow>div{
+	box-sizing: border-box;
+	width: 290px;
+	height: 375px;
+	margin:0px 10px;
+    padding:35px;
+    background: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Phone-tow>div a img{
+	width: 230px;
+	height: 230px;
+}
+.Phone-tow>div a h4{
+	color:#333;
+	font-weight: 400;
+	font-size: 16px;
+	font-family:"微软雅黑" ;
+	margin-bottom: 10px;
+}
+.Phone-tow>div a h5{
+	color: rgba(0,0,0,0.5);
+	font-weight: 400;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	
+}
+.Phone-tow>div a h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 22px;
+	/*margin-top: -20px;*/
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.Phone-tow>div:hover{
+	box-shadow:1px 1px 50px 20px rgba(0,0,0,0.1); /*触碰出现阴影*/
+	transition: 1s; 
+}
+/*-----------------------------------------魅族声学-----------------------------------------*/
+.Acoustics-img{
+	display: inline-block;
+	width: 100%;
+	height: 500px;
+	background: url(../img/首页/魅族声学/d7ae6b59_261d_4656_af84_8524b2cbf48a.jpg) -550px -80px no-repeat;
+}
+#Acoustics{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+#Acoustics>div{
+	margin: 10px 0px; 
+}
+.Acoustics-one-img{
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background: url(../img/首页/魅族声学/5c6f84a6_9883_4e27_a935_4d10b171360e.jpg) no-repeat;
+	background-size:cover;
+}
+.Acoustics-img-text h4{
+	color: white;
+	font-size:21px ;
+	font-weight: 700;
+	font-family: "微软雅黑";
+	margin-top:250px ;
+}
+.Acoustics-img-text h5{
+	font-size:14px;
+	color: white;
+	font-weight: normal;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.Acoustics-img-text h3{
+	color: #00fefb;
+	font-size:24px ;
+	font-weight:700 ;
+}
+.Acoustics .main>div a img{
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+}
+.Acoustics .main .bg-white{
+	width: 303px;
+	height: 375px;
+    background: white;
+}
+.bg-white h4{
+	color: #333;
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+}
+.bg-white h5{
+	color: #999;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin: 10px 0;
+}
+.bg-white h3{
+	color: #c00;
+	font-weight: 400;
+	font-size: 22px;
+	margin-top: 0px;
+}
+.bg-white h3 s{
+	color: #666;
+	font-weight: 400;
+	font-size: 14px;
+	margin-left: 8px;
+}
+.Acoustics-two-img{
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background: url(../img/首页/魅族声学/c670037c_d423_43b4_945d_c41a973c3a8e.jpg) no-repeat;
+	background-size:cover;
+}
+.Acoustics-three-img{
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background: url(../img/首页/魅族声学/ea900393_0119_4f34_87c1_0770a22a84a1.jpg) no-repeat;
+	background-size:cover;
+}
+#Acoustics>div:hover{
+	box-shadow:1px 1px 50px 20px rgba(0,0,0,0.1); /*触碰出现阴影*/
+	transition: 1s; 
+}
+/*------------------------------------------智能配件---------------------------*/
+.Parts-img{
+	display: inline-block;
+	width: 100%;
+	height: 450px;
+	background: url(../img/首页/智能配件/c67264b3_38d7_4b57_af1c_5f061c70db0e.jpg) -740px -80px no-repeat;
+	background-size: 3000px 580px;
+}
+.Parts-one-img{
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background: url(../img/首页/智能配件/01782af6_5c38_4f95_b2aa_0e0e680ad054.png) no-repeat;
+	background-size:cover;
+}
+.Parts .main>div a img{
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+}
+.Parts .main .bg-white{
+	width: 303px;
+	height: 375px;
+    background: white;
+}
+.Parts-two-img{
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background: url(../img/首页/智能配件/5370aa79_9b77_4b43_b37b_1dace18d4efa.jpg) no-repeat;
+	background-size:cover;
+}
+.Parts-three-img{
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background: url(../img/首页/智能配件/c616d3eb_874d_4ff8_944c_af9ac3e65c68.jpg) no-repeat;
+	background-size:cover;
+}
+/*------------------------------------------生活周边---------------------------*/
+.Life .main>div a img{
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+}
+.Life .main .bg-white{
+	width: 303px;
+	height: 375px;
+    background: white;
+}
+.Life-img{
+	display: inline-block;
+	width: 100%;
+	height: 500px;
+	background: url(../img/首页/生活周边/139aba43_7434_42ae_b3f7_0853dedd67b2.jpg) -553px -128px no-repeat;
+	/*background-size: 3000px 580px;*/
+}
+.Life-one-img{
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background: url(../img/首页/生活周边/5c9e0f3b_2c17_4578_825b_7a138fc5127f.jpg) no-repeat;
+	background-size:cover;
+}
+.Life-two-img{
+	width: 303px;
+	height: 375px;
+	display: inline-block;
+	background: url(../img/首页/生活周边/011c8745_9eb9_47b7_b6b1_97c98f7dcdf0.jpg) no-repeat;
+	background-size:cover;
+}
+/*----------------------------------------社会热帖--------------------------------*/
+#Notes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#Notes>div{
+	width: 303px;
+	height: 375px;
+	background: white;
+	margin: 10px 0px;
+}
+#Notes>div .Notes-a img{
+	width: 303px;
+	height: 190px;
+}
+#Notes>div .Notes-a .Notes-portrait{
+	width: 38px;
+	height: 38px;
+	border-radius:50%;
+	box-shadow:1px 1px 3px 2px rgba(0,0,0,0.3);
+	margin:8px 15px ;
+	vertical-align: middle;
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+#Notes>div .Notes-a span{
+	color: #515151; 
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
+#Notes>div .Notes-a p{
+	color: rgba(0,0,0,0.8); 
+	font-size: 16px;
+	line-height: 27px;
+	/*font-family: "微软雅黑";*/
+	margin:0px 15px ;
+}
+#Notes>div .Notes-a h6{
+	color: #999; 
+	font-size: 14px;
+	margin: 30px 15px;
+}
+#Notes>div:hover{
+	box-shadow:1px 1px 50px 20px rgba(0,0,0,0.1); /*触碰出现阴影*/
+	transition: 1s; 
+}
+/*-----------------------------------Flyme-----------------------------*/
+#Flyme{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#Flyme>div{
+	margin: 5px 0px;
+}
+#Flyme>div:hover{
+	box-shadow:1px 1px 50px 20px rgba(0,0,0,0.1); /*触碰出现阴影*/
+	transition: 1s; 
+}
+#Flyme .Flyme-img a img{
+	width:615px ;
+	height:245px;
+}
+#Flyme>div a img{
+	width: 303px;
+	height: 190px;
+}
+#Flyme .Flyme-text a p{
+	width: 303px;
+	height: 55px;
+	background: white;
+	text-align: center;
+	line-height: 55px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	margin-top: -2px;
+}
+.video{
+	margin-bottom: 50px;
+}
